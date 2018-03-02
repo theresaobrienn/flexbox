@@ -1,8 +1,44 @@
 /* Universal Styles */
 
-h1 {
-  display:flex;
+.container {
+  display: flex;
+}
+
+.logo {
+  color: MediumAquamarine;
+  display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+div {
+  border: 1px solid black
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.column.large.orca {
+  background-image: image("/Users/theresaobrien/Desktop/FlexBox/img-story-main.png");
 }
